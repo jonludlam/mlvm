@@ -1,4 +1,4 @@
-open Stringext
+open Xstringext
 
 type t = string with rpc
 

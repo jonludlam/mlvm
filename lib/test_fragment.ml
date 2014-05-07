@@ -21,7 +21,7 @@ let lvresize  = "/usr/sbin/lvresize"
 
 
 open Fun
-open Stringext
+open Xstringext
 open Listext
 open Camldm
 

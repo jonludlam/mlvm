@@ -222,8 +222,8 @@ let find_lv vg lv_name =
   List.find (fun lv -> lv.Lv.name = lv_name) vg.lvs
     
 let dm_name_of vg lv =
-  let vgname = String.concat "--" (Stringext.String.split '-' vg.name) in
-  let lvname = String.concat "--" (Stringext.String.split '-' lv.Lv.name) in
+  let vgname = String.concat "--" (Xstringext.String.split '-' vg.name) in
+  let lvname = String.concat "--" (Xstringext.String.split '-' lv.Lv.name) in
   Printf.sprintf "%s-%s" vgname lvname
 
 let dev_path_of vg lv =
